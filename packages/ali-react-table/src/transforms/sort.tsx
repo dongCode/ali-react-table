@@ -124,7 +124,7 @@ export function makeSortTransform({
   orders = ['desc', 'asc', 'none'],
   mode = 'multiple',
   SortHeaderCell = DefaultSortHeaderCell,
-  keepDataSource,
+  keepDataSource = true,
   highlightColumnWhenActive,
   stopClickEventPropagation,
 }: SortOptions): TableTransform {

@@ -156,7 +156,7 @@ export function sort(opts: SortFeatureOptions = {}) {
       orders = ['desc', 'asc', 'none'],
       mode = 'multiple',
       SortHeaderCell = DefaultSortHeaderCell,
-      keepDataSource,
+      keepDataSource = true,
       highlightColumnWhenActive,
       stopClickEventPropagation,
       clickArea = 'content',
